@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navigation from "../Components/Navigation";
 
 
 export const Home = () => {
@@ -9,7 +10,9 @@ export const Home = () => {
         <meta name="description" content="Ultimate Classic Gym - Get In The Best Shape of your Life!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+        <main>
+            <Navigation />
+        </main>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+.logo {
+  color: #0070f3;
+}
+
+nav.nav {
+  padding: 0 15vw 0 5vw;
+  border-bottom: 1px solid palegoldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.nav br {
+  display: none;
+}
+@media (max-width: 1024px) {
+  nav.nav br {
+    display: inline-block;
+  }
+}
+@media (max-width: 512px) {
+  nav.nav {
+    font-size: 0.5rem;
+    padding-right: 15vw;
+  }
+}
+
+/*# sourceMappingURL=navigation.module.css.map */
